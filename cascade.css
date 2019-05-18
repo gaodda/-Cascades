@@ -1,0 +1,130 @@
+.tntreebox *{
+  box-sizing:border-box;font-size:13px!important
+}
+.tntreebox{
+  clear:both;
+  background-color:#fff;
+  text-align:left
+}
+.tntreebox .list{
+  min-width:190px;
+  max-width:600px;
+  height:300px;
+  display: none;
+}
+.tntreebox input[type=checkbox],
+.tntreebox em{
+  width:16px;
+  height:16px;
+  vertical-align:middle;
+  margin-right:10px!important;
+  display:inline-block;
+  margin-top:5px;
+  float:left;
+  opacity:1!important
+}
+.tntreebox .box{
+  width:190px!important;
+  height:100%;
+  overflow:auto;
+  float:left;
+  border-right:1px solid #ddd;
+  border-top:1px solid #dcdcdc;
+  border-bottom:1px solid #dcdcdc
+}
+.tntreebox .box:first-child{
+  border-left:1px solid #dcdcdc
+}
+.tntreebox ul{
+  margin:0;padding:0
+}
+.tntreebox li{
+  list-style-type:none;
+  height:35px;
+  line-height:35px;
+  padding:0 10px;
+  cursor:pointer;
+  overflow:none;
+  color:#666;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+.tntreebox li:hover,
+.tntreebox .cur{
+  background-color:#f4f4f4
+}
+.tntreebox li:hover,
+.tntreebox .blue{
+  background-color:#e7f2fc
+}
+.tntreebox .selected{
+  background-color:#66b3ff
+}
+.tntreebox .search{
+  width:98%;
+  height:90%;
+  border:0
+}
+.tntreebox .hide,
+.tntreebox .hide2{
+  display:none
+}
+.tntreebox label{
+  line-height:35px;
+  vertical-align:middle;
+  margin:0!important;
+  cursor:pointer;
+  float:left
+}
+.tntreebox .children span:before{
+  content:">";
+  display:block;
+  right:0;
+  width:20px;
+  height:35px;
+  float:right
+}
+.tntreebox .header{
+  width:570px;
+  position:relative;
+  height:30px;
+  overflow-x:hide;
+  overflow-y:auto;
+  border:1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-top:0!important;
+  cursor: pointer;
+}
+.tntreebox .header div,
+.tntreebox .header a{
+  display:block;
+  float:left;
+  padding:0 10px;
+  margin:3px;
+  height:22px;
+  line-height:22px;
+  color:#666;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+.tntreebox .header div span,
+.tntreebox .header a{
+  cursor:pointer
+}
+.tntreebox .header div{
+  background-color:#f4f4f4;
+  border-radius:5px
+}
+.tntreebox .header div span{
+  padding:5px 0 5px 5px;
+  margin:0 0 0 10px;
+  font-size:20px
+}
+.children span{
+  font-family:å®‹ä½“;
+  font-weight:700
+}
